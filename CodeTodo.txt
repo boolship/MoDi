@@ -1,0 +1,42 @@
+----------------
+TEST
+----------------
+
+--
+solution does not include automated test cases.
+
+--
+exhaustive test case design in test_cases.pdf or test_cases.xlsx files.
+
+--
+example working test cases:
+mo40 0 wc=3   e.g. "buf col set 155" attempt by 0, fixed "err: minimum buf col equal to win col 235"
+mo40 1 bl=95 wl=84
+mo40 1 wl=84 bl=95
+
+--
+
+----------------
+TODO
+----------------
+
+--
+refactor
+ quick edit mode error handling
+ insert mode error handling
+
+--
+best effort
+ insert mode - bash => set false fail (partial)
+
+--
+
+
+--
+
+
+--
+
+
+--
+

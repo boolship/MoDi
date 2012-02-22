@@ -1,0 +1,57 @@
+Use the fewest possible keystrokes to set DOS or Git Bash 
+window sizes. Resize fast, without a mouse. 
+
+Sets Console Window & Buffer Sizes, QuickEdit, other options 
+from command line. 
+
+Setup in two steps: (1) download the mo.zip file, and 
+(2) unzip content into a folder on your windows path. 
+
+Alternatively, you can fork or clone this project on GitHub, 
+change, and rebuild to make your own complete mo.zip.
+
+"mo" also works in Console 2, because Console 2 is a wrapper 
+of DOS and Git Bash consoles.
+
+The "mo" program runs on either BCL 2.0 or 4.0 .Net versions.
+It has been successfully tested on installed .Net frameworks
+between 2.0 and 4.5 and on Windows XP through Windows 8.
+
+This new "mo" solution has been rewritten using guidelines
+learned in the Manning book Dependency Injection in .Net.
+This solution structure is similar to UpdateCurrency. It
+includes fixes and new features since the old "mo" version.
+
+The solution was built using Visual Studio 2010. Good luck.
+
+boolship
+boolship@gmail.com
+29 February 2012
+
+Examples:
+:: - - - - - - - - - DOS - - - - - - - - - 
+c:\Users\Administrator> mo 1
+win lin set 40
+win col set 115
+buf lin set 2400
+buf col set 235
+insert set True
+quick edit set True
+
+For help type:
+C:\Users\Administrator> mo ?
+...
+
+:: - - - - - - - - - Git Bash - - - - - - - - - 
+Administrator@MYCOMPUTER ~
+$ mo
+Console Status:
+---------------
+        Window Size        = Lines:   40, Columns:  115
+        Screen Buffer Size = Lines: 2400, Columns:  235
+
+Edit Options:
+-------------
+        QuickEdit Mode: Unknown, Insert Mode: Unknown
+
+:: - - - - - - - - - 
